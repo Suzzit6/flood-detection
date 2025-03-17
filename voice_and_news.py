@@ -27,7 +27,7 @@ app = Flask(__name__)
 CORS(app)
 
 # Set up ngrok
-ngrok.set_auth_token("2uMzelHqHJxXHvvIH8ZNdiSfLVy_31d7tkS1kwZiWLCX6CDnj")
+ngrok.set_auth_token("NGROK_AUTH_toKEN")
 public_url = ngrok.connect(5004).public_url
 print(f" * ngrok tunnel \"{public_url}\" -> \"http://127.0.0.1:5003\"")
 
