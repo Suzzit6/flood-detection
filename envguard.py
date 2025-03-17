@@ -16,7 +16,7 @@ CORS(app,
          "allow_headers": ["Content-Type", "Authorization"],
      }})
 app.config['SECRET_KEY'] = os.getenv('FLASK_SECRET_KEY')
-API_KEY= "AIzaSyDpQP2ipTuApnppJdw0w0GpN-40F3pGKcA"
+API_KEY= "GOOGLE_API_KEY"
 url = f"https://airquality.googleapis.com/v1/currentConditions:lookup?key={API_KEY}"
 PLACES_API_URL = "https://maps.googleapis.com/maps/api/place/textsearch/json"
 GEOCODING_API_URL = "https://maps.googleapis.com/maps/api/geocode/json"
