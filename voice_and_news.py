@@ -491,7 +491,7 @@ class HealthNewsManager:
         return response
 
 # Initialize the health news manager
-health_news_manager = HealthNewsManager(groq_api_key="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")
+health_news_manager = HealthNewsManager(groq_api_key="GroqAPIKEY")
 
 # Add the Flask endpoint
 @app.route('/latest-health-news', methods=['GET'])
